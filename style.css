@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #f5f5f5;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.titulo{
+    background-color: #1c8adb;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-bottom: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+
+}
+
+@media screen and (max-width: 800px){
+    .titulo{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+
+h1{
+    font-size: 40px;
+    color: #000;
+    margin-bottom: 20px;
+    margin-top: 3%;
+    
+}
+
+.numeros{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.20);
+    
+}
+
+.Busqueda{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+
+.PlaceHolder{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.20);  
+
+}
+
+#searchButton{
+    background: #1c8adb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 2%;
+}
+
+#searchButton:hover{
+    background: #00538f;
+    color: #fff;
+}
+
+form{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+    
+}
+
+input{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.boton{
+    width: 25%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.boton:hover{
+    background: #00538f;
+    color: #fff;
+}
+
+.numeros{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+}
+
+th{
+    background: rgb(252, 147, 147);
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+table{
+
+    position: relative;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+@media screen and (max-width: 800px){
+    table{
+        width: 100%;
+        margin-left: 0%;
+    }
+    form{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+
+#deleteButton{
+    background: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    position: relative;
+    margin-top: 3%;
+}
+
+#deleteButton:hover{
+    background: #7a0000;
+    color: #fff;
+}
+
+#modifyButton{
+    background: #1c8adb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#modifyButton:hover{
+    background: #00538f;
+    color: #fff;
+}
+
+.montos{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    outline: none;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+}
